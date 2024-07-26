@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<!--
+	Aesthetic by gettemplates.co
+	Twitter: http://twitter.com/gettemplateco
+	URL: http://gettemplates.co
+-->
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="gettemplates.co" />
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> -->
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="static/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="static/css/icomoon.css">
+	<!-- Themify Icons-->
+	<link rel="stylesheet" href="static/css/themify-icons.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="static/css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="static/css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="static/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="static/css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="static/js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="static/js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="gtco-loader"></div>
+	
+	<div id="page">
+	<nav class="gtco-nav" role="navigation">
+		<div class="col-xs-8 text-right menu-1">
+			<ul>
+				<li class="active"><a href="/index">Home</a></li>
+				<li class="active"><a href="/about">About</a></li>
+				<li class="has-dropdown">
+					<a href="/notebook">Without Sampling</a>
+					<ul class="dropdown">
+						<li><a href="/notebook1">SMOTE</a></li>
+						<li><a href="/notebook2">MWMOTE</a></li>
+						<li><a href="/notebook3">ROSE</a></li>
+						<li><a href="/notebook6">BORUTA</a></li>
+						<li><a href="/notebook4">RFE</a></li>
+						<li><a href="/notebook5">MRFE</a></li>
+						
+					</ul>
+				</li>
+				<li><a href="/login">Signout</a></li>
+				
+			</ul>
+		</div>
+		
+	</nav>
+
+	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(static/images/img_bg_1.jpg);">
+		<div class="overlay"></div>
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0 text-left">
+					<div class="display-t">
+						<div class="display-tc">
+							<h1 class="animate-box" data-animate-effect="fadeInUp">Crop Prediction Based on Characteristics of the Agricultural Environment Using Various Feature Selection Techniques and Classifiers</h1>
+							
+							<p class="animate-box" data-animate-effect="fadeInUp"><a href="#" class="btn btn-white btn-lg btn-outline">Get In Touch</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	
+	
+	<div id="gtco-features">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+					
+			  <p>OUTCOME: <i class="zmdi zmdi-plus-circle"></i> <i class="zmdi zmdi-minus-circle"></i></p>
+			  <br><br><br>
+			  <label class="form-group">
+				{% if output==0 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;"> The Predicted crop type is apple based on the sensor values <i class="zmdi zmdi-plus-circle"></i></h4>
+				{% elif output==1 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is banana based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==2 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is blackgram based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==3 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is chickpea based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==4 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is coconut based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==5 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is coffee based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==6 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is cotton based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==7 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is grapes based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==8 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is jute based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==9 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is kidneybeans based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==10 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is lentil based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==11 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is maize based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==12 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is mango based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==13 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is mothbeans based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==14 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is mungbeanbased on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==15 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is muskmelon based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==16 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is orange based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==17 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is papaya based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==18 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is pigeonpeas based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==19 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is pomegranate based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==20 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is rice based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% elif output==21 %}
+				<h4 style="font-size: xx-large; color: blue;text-transform: uppercase;">  The Predicted crop type is watermelon based on the sensor values <i class="zmdi zmdi-minus-circle"></i></h4>
+				{% endif %}
+				
+				  <span class="border"></span>
+			  </label>
+              <br>
+            
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        
+      
+        <footer id="gtco-footer" role="contentinfo">
+          <div class="gtco-container">
+            
+      
+            <div class="row copyright">
+              <div class="col-md-12">
+                <p class="pull-left">
+                  <small class="block">&copy; 2022 Free HTML5. All Rights Reserved.</small> 
+                  <small class="block">Designed by <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+                </p>
+                <p class="pull-right">
+                  <ul class="gtco-social-icons pull-right">
+                    <li><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon-facebook"></i></a></li>
+                    <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                    <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+      
+          </div>
+        </footer>
+        </div>
+      
+        <div class="gototop js-top">
+          <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+        </div>
+        
+        <!-- jQuery -->
+        <script src="static/js/jquery.min.js"></script>
+        <!-- jQuery Easing -->
+        <script src="static/js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="static/js/bootstrap.min.js"></script>
+        <!-- Waypoints -->
+        <script src="static/js/jquery.waypoints.min.js"></script>
+        <!-- Carousel -->
+        <script src="static/js/owl.carousel.min.js"></script>
+        <!-- countTo -->
+        <script src="static/js/jquery.countTo.js"></script>
+        <!-- Magnific Popup -->
+        <script src="static/js/jquery.magnific-popup.min.js"></script>
+        <script src="static/js/magnific-popup-options.js"></script>
+        <!-- Main -->
+        <script src="static/js/main.js"></script>
+      
+        </body>
+      </html>
+      
+      
